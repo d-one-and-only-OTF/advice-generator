@@ -1,0 +1,172 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+.center-card{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 270px;
+}
+
+.center-card-content{
+    font-size: 1vw;
+}
+
+h1{
+    color: hsl(150, 100%, 66%);
+}
+
+
+.dice{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 0;
+    left: 48%;
+    transform: translateY(830%);
+    transition: back-ground-color 0.5s ease-in-out;
+}
+
+.dice:hover{
+    background-color: hsl(150, 84%, 75%);
+    cursor: pointer;
+}
+
+.dice .img-fluid{
+    position: relative;
+    top: 12px;
+    right: -12px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 375px) {
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: hsl(218, 23%, 16%);
+    }
+    
+    .center-card{
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 260px;
+        height: 260px;
+    }
+    
+    .center-card-content{
+        font-size: 1vw;
+    }
+    
+    h1{
+        color: hsl(150, 100%, 66%);
+    }
+    
+    
+    .dice{
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        position: relative;
+        bottom: 0;
+        left: 46%;
+        transform: translateY(820%);
+        transition: back-ground-color 0.5s ease-in-out;
+    }
+    
+    .dice .img-fluid{
+        position: relative;
+        top: 12px;
+        right: -13px;
+    }
+
+    .dice:hover{
+        background-color: hsl(150, 84%, 75%);
+        cursor: pointer;
+    }
+    
+    .dice .img-fluid{
+        position: relative;
+        top: 12px;
+        right: -12px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 300px) {
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: hsl(218, 23%, 16%);
+    }
+    
+    .center-card{
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 230px;
+        height: 260px;
+    }
+    
+    .center-card-content{
+        font-size: 1vw;
+    }
+    
+    h1{
+        color: hsl(150, 100%, 66%);
+    }
+    
+    
+    .dice{
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        position: relative;
+        bottom: 0;
+        left: 46%;
+        transform: translateY(810%);
+        transition: back-ground-color 0.5s ease-in-out;
+    }
+    
+    .dice .img-fluid{
+        position: relative;
+        top: 12px;
+        right: -13px;
+    }
+
+    .dice:hover{
+        background-color: hsl(150, 84%, 75%);
+        cursor: pointer;
+    }
+    
+    .dice .img-fluid{
+        position: relative;
+        top: 12px;
+        right: -12px;
+        cursor: pointer;
+    }
+}
